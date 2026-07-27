@@ -1,0 +1,111 @@
+.App{
+    display: grid;
+    
+}
+
+.topbar{
+    container-type: inline-size;
+    padding: 10px;
+    
+
+   border-radius: 1px;
+
+  
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+    height: 120px;
+
+  
+    
+}
+.topbar *{
+    opacity: 1;
+   
+}
+
+.card-container{
+    display: grid;
+    justify-items: start;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom:20px;
+
+
+}
+
+.buttons *{
+    padding: 10px 20px;
+   
+
+    width: 50px;
+    height: 50px;    
+
+  
+}
+
+
+.subtitle{
+    
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+
+    transition: opacity 400ms ease-in-out;
+    text-shadow: 0 0 15px #ffffff;
+
+    font-size: 20px;
+}
+
+.fade-in{
+    opacity: 0.7;
+   
+}
+.fade-out{
+    opacity: 0;
+   
+}
+.title{
+    font-size: 108px;
+    background: linear-gradient(to left, #ff18ff, #ffdd00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 0.9;
+    
+    text-shadow: 0 0 15px #ffffff; /* 10px blur radius */
+
+}
+.darken{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    z-index: -1;
+}
+.searchbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,38 @@
+
+.settings-menu{
+    width: 500px
+ 
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.settings-container{
+     display: grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+  border: 1px rgba(0,0,0,0.3) solid;
+
+  place-items: center center;
+
+  overflow: auto;
+}
+.setters-container{
+     display: grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+  border: 1px rgba(0,0,0,0.3) solid;
+
+  place-items: center center;
+
+  overflow: auto;
+
+  place-content: start;
+}
+input{
+    margin-top: 0;
+}
+.setting{
+    place-items: left;
+    justify-self: start;
+}
