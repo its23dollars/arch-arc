@@ -32,7 +32,7 @@ export default function SettingsMenu({settingsMenuShown, setSettingsMenuShown}) 
             <div className="add-new-menu settings-menu" >
             <button style={{position:"absolute", top:"5px", right:"0",  width:"20px", height:"20px"}} onClick={() => {setSettingsMenuShown(false)}}>X</button>
             <h2>Settings</h2>
-            <hr />
+           <br></br>
             More settings coming soon!
             <br/>
            { Object.keys(settings).map((setting)=>{

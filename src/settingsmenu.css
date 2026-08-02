@@ -1,6 +1,10 @@
 
 .settings-menu{
-    width: 500px
+    width: 500px;
+
+    background: rgba(255, 255, 255, 0.3);
+
+    backdrop-filter: blur(10px);
  
 }
 .container{

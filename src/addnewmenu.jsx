@@ -18,7 +18,7 @@ export default function AddNewMenu({setMenuShown, menuShown, shortcutsList, setS
             <div className="add-new-menu" >
             <button style={{position:"absolute", top:"5px", right:"0px", width:"20px", height:"20px"}} onClick={() => {setMenuShown(false); console.log(menuShown)}}>X</button>
             <h2>Add New Link</h2>
-            <hr />
+            <br></br>
             <input type="text" placeholder="Title" id="titleinp" value={title} onChange={(e) => setTitle(e.target.value)}></input>
             <input type="text" placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)}></input>
             <input type="URL" placeholder="URL" value={link} onChange={(e) => setLink(e.target.value)}></input>

@@ -1,5 +1,5 @@
 *{
-    font-family: "SF Pro Display", "SF Pro Text";
+    font-family: "SF Pro Display", "SF Pro Text", "Arial", sans-serif;
 }
 select{
     appearance: base-select;

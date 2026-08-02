@@ -1,6 +1,7 @@
 :root {
     --text-opacity: 0;
     --font-size: 10px;
+    --transition-type: ease-out;
 }
 
 .card {
@@ -12,11 +13,13 @@
     border: 1px solid rgba(175, 175, 175, 0.6);
 
     /* Cleaned up and perfectly matched with JS State */
-    transition: all calc(300ms * var(--transitionsSpeedMultiplier)) ease;
+    transition: all calc(300ms * var(--transitionsSpeedMultiplier)) var(--transition-type);
     
     --reveal: 0;
     width: 100px;
     height: 100px;
+
+    backdrop-filter: blur(5px);
 }
 
 .card h2, .card p {
@@ -51,5 +54,5 @@ p, h2 {
 .c-button {
     opacity: var(--reveal);
     display: flex;
-    transition: 300ms ease;
+    transition: 300ms var(--transition-type);
 } /* FIX: Removed trailing comma that broke the file execution */
