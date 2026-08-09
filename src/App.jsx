@@ -107,7 +107,7 @@ export default function App() {
     <div className="App">
       <br></br>
     
-    <div className="darken"></div>
+  
 
     <header className="topbar">
       <h1 className="title">Starjump</h1>
