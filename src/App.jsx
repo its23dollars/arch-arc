@@ -122,7 +122,7 @@ export default function App() {
     <section className="buttons">
       <button title="Add new"  onClick={()=>{setMenuShown(true)}}>+</button>
       <button title="Settings" onClick={()=>{setSettingsMenuShown(true)}}>⚙</button>
-      <button title="Information"></button>
+
     </section>
     
     <div className="card-container">

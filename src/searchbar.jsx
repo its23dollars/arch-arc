@@ -19,7 +19,7 @@ export default function SearchBar() {
            
             <form action="https://google.com/search" method="GET">
                 
-                    <input type="text" name="q" placeholder="Search Google..." className="searchbar" onFocus={() => setFocused(true)} onBlur={() => setFocused(false)}/>
+                    <input type="text" name="q" placeholder="Search Google..." className="searchbar" onFocus={() => setFocused(true)} onBlur={() => setFocused(false)} autocomplete="off"/>
                     </form>  
 
             

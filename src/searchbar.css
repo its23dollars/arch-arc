@@ -19,11 +19,11 @@
     outline: none;
     background: rgba(255, 255, 255, 0.8);
 
-    transition: box-shadow 0.2s, border-color 0.2s ease-out;
+    transition: box-shadow 0.2s, border-color 0.2s;
     
     
 
-    transition: all calc(var(--transitionsSpeedMultiplier) * 300ms) ease-out;
+    transition: all calc(var(--transitionsSpeedMultiplier) * 300ms) ;
 
     width: 125px;
 
